@@ -6,8 +6,8 @@ click html pages link  https://bryan0258.github.io/IPT2Bautista/
 
 
 POGI
-Tra edit edit na
 
-Upload video trailer 
-Title
-Synopsis
+
+Ayaw gumana ng videos 
+
+10mb lng ata per videos
