@@ -1,0 +1,395 @@
+body{
+	margin:0;
+	padding:0;
+	background:linear-gradient(to top, rgba(0,0,0,0.6)100%, rgba(0,0,0,0.6)100%), url(background/background1.jpg);
+	background-size:100%;
+	background-attachment:fixed;
+	
+}
+
+/*sa flash gif */
+.logo{
+	float:left;
+	padding-top:.6%;
+	cursor:pointer;
+	
+}
+
+
+}
+
+.menu{
+	width:100%;
+	
+	
+	
+}
+
+.menu ul{
+	float:left;
+	display:flex;
+	padding-top:10px;
+	justify-content:center;
+	align-items:center;
+	
+	
+	
+}
+
+.menu ul li{
+	list-style:none;
+	margin-left:10px;
+	font-size:16px;
+	
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color:white;
+	font-family:monserrat;
+	font-weight:bold;
+	border:2px solid white;
+	padding:8px 20px;
+	display: block;
+	overflow:hidden;
+	transition:1s all ease;
+	position:relative;
+	border-radius:25px;
+	position:sticky;
+	
+}
+
+
+.menu ul li a::before{
+	background:red;
+	content:"";
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50% )rotate(45deg);
+	transition: all 1s ease;
+	width:100%;
+	height:0%;
+	z-index:-1;
+	
+}
+
+/*design ng navigation bar ung pa slide na red pag tinutok mo mouse sa bar nka transform rotate*/
+.menu ul li a:hover::before{
+	height:380%;
+
+}	
+
+
+
+
+
+
+.menu ul li{
+	list-style:none;
+	margin-left:50px;
+	font-size:16px;
+	
+}
+
+/*madami e debug d2*/
+.search-box{
+	float:right;
+	width:215px;
+	background:white;
+	height:40px;
+	padding:8px;
+	border-radius:25px;
+	margin-top:2%;
+	margin-right:5%;
+	
+	
+	
+	
+	
+	
+}
+.search-box .search-btn{
+	display:flex;
+	position:absolute;
+	width:50px;
+	margin-left:150px;
+	border-radius:25;
+	
+}
+
+.search-btn{
+	text-decoration:none;
+	background:white;
+	display:flex;
+	float:right;
+	justify-content:center;
+	align-items:center;
+	height:27px;
+	width:19px;
+	padding-bottom:1px;
+	
+	
+	
+	
+}
+
+.search-txt{
+	border:none;
+	background:none;
+	outline:none;
+	float:left;
+	color:black;
+	font-size:16px;
+	line-height:13px;
+	letter-spacing:.6px;
+	padding-top:4px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Goods na d2 sa videos, title, and description  */
+
+*{
+	box-sizing:border-box;
+}
+
+.flex-container{
+	display:flex;
+	flex-direction:row;
+	font-size:20px;
+	text-align:center;
+	margin:10px;
+	
+	
+}
+
+.flex-item-left{
+	background:url(background/b.jpg);
+	padding:10px;
+	flex:50%;
+	border-radius:10%;
+	
+}
+
+.flex-item-right{
+	
+	padding:10px;
+	flex:50%;
+	margin-left:5px;
+	border-radius:10%;
+}
+
+@mendia(max-width:800px){
+	.flex-container{
+		flex-deriction:column;
+	}
+}
+
+.vid{
+	width:600px;
+	height:500px;
+	
+}
+
+.hed{
+	background:rgba(255,255,255,.4);
+	text-align:left;
+	padding-left:20px;
+	font-size:50px;
+	color:#fff;
+	border-radius:5%;
+	border:2px solid black;
+	
+}
+
+.para{
+	
+	border-radius:8%;
+	font-size:25px;
+	text-align:center;
+	border:2px solid black;
+	background-color:#fff;
+}
+
+.pic{
+	width:90%;
+	height:250px;
+	margin-left:5%;
+	
+}
+
+/*Yung flame logo to*/
+.logo{
+	width:300px;
+	height:100px;
+
+}
+
+/*sa taas ng videos ung anime na list*/
+.AnimeListt{
+	color:white;
+	font-size:40px;
+}
+
+
+
+
+
+
+
+/*fooer na d2 dag dag nalang sa contact us kung may naisip kyo */                
+
+
+
+
+footer{
+	
+	color:#fff;
+	background-image:url(background/5.gif);
+	background-size:100%;
+	height:400px;
+	background-position:center;
+		
+}
+
+
+.footer__info{
+	width:100%;
+	margin:0 auto;
+	display:flex;
+	padding:50px;
+	
+}
+
+
+.footer_width about .footer_width contack{
+	width:40%;
+}
+
+
+.footer_width link{
+	width:20%;
+	
+}
+
+
+.footer__info .footer_width{
+	padding:0 90px;
+	
+}
+
+
+.footer__info h2{
+	margin-bottom:20px;
+	
+}
+
+
+.social_media{
+	margin-top:30px;
+	
+}
+
+
+.social_media ul{
+	display:flex;
+	
+}
+
+
+.social_media ul li a{
+	display:inline-block;
+	margin-right:30px;
+	width:50px;
+	height:50px;
+	padding-top:15px;
+	background-color:#fff;
+	border:1px solid #fff;
+	text-align:center;
+	border-radius:25px;
+	
+}
+
+.footer_width link{
+	margin-bottom:15px;
+	font-size:20px;
+	
+}
+
+
+
+fab fa-facebook-f{
+  font-size: 30px;
+  color: #F4FFFE;
+  border-style: groove;
+  border-color: grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  display: inline-block
+  
+}
+
+
+.copy{
+	color:#fff;
+	text-align:center;
+	font-size:21px;
+	background:black;
+	border:2px solid #fff;
+	
+}
+
+
+.upcoming{
+	width:100%;
+	height:350px;
+	
+}
+
+/*Sa taas ng anime trailer video auto loop muted*/
+.anime2023{
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	color:yellow;
+}
+
+
+.nxt{
+	text-align:center;
+	float:left;
+	display:flex;
+	justify-content:center;
+	margin-left:40%
+	
+}
+
+
+.numbering1 a{
+	font-size:20px;
+	color:#fff;
+	
+}
+
+
+.numbering a{
+	font-size:20px;
+	text-align:center;
+	float:left;
+	display:flex;
+	margin-left:10px;
+	color:#fff;
+	
+}
