@@ -190,7 +190,7 @@ body{
 	border-radius:10%;
 }
 
-@mendia(max-width:800px){
+@mendia(max-width:1280px){
 	.flex-container{
 		flex-deriction:column;
 	}
