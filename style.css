@@ -362,10 +362,10 @@ fab fa-facebook-f{
 .upcoming{
 	width:50%;
 	height:350px;
-	
+	justify-content:center;
 	text-align:center;
 	position:center;
-	float:left;
+	
 	
 }
 
